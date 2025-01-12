@@ -1,0 +1,1479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* kya hota hai ye ? */
+}
+
+body {
+    background-color: #e3e6e6;
+    ;
+    font-family: "Roboto", serif;
+
+}
+.amazone-sym {
+    height: 40px;
+    width: 100px;
+}
+.nav1 {
+    height: 7vh;
+    background-color: #131921;
+    border: 2px solid #131921;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+.nav2 {
+    height: 5vh;
+    background-color: #232f3e;
+    border: 2px solid #232f3e;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+.name {
+    color: #d2d4d6;
+}
+
+.name :first-child {
+    margin: 0 0 0 23px;
+    font-size: 0.7em;
+}
+
+.name :nth-child(3) {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.searchBar {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 16px;
+    height: 6.7vh;
+    width: 35vw;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92%;
+    width: 14%;
+    background-color: #e6e6e6;
+    border-radius: 4px 0 0 4px;
+    color: #7e7d7d;
+    font-size: 13px;
+
+}
+
+.searchBar input {
+    height: 92%;
+    width: 80%;
+    margin: 0px;
+    border-radius: 0px;
+    border: 1px solid white;
+    padding: 0 0 0 10px;
+    outline: none;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+    width: 14%;
+    border-radius: 0 4px 4px 0;
+    background-color: #febd69;
+    margin: 0 0 0 -1px;
+}
+
+
+.en {
+    color: white;
+    margin: 0 0 0 34px;
+}
+
+.n4,
+.n5 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 0 0 24px;
+}
+
+.n4> :first-child {
+    font-size: 12px;
+    margin: 0 0 -4px 0;
+}
+
+.n5> :first-child {
+    font-size: 12px;
+    margin: 0 0 -4px 0;
+}
+
+.nav2 {
+    height: 36px;
+    background-color: #232f3e;
+    border: 2px solid #232f3e;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.image-slider {
+    max-width: 1400px;
+    height: 370px;
+    overflow: hidden;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+ 
+    max-width: 1400px;
+    margin: -150px auto;
+    
+}
+
+.card {
+    height: min(480px , 30vw);
+    width: min(23vw,340px);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    margin: 0 0 23px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+
+
+
+}
+
+.card h2 {
+    margin: auto;
+    font-size: 23px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: 
+    rgb(15, 17, 17);
+}
+
+/* .card img {
+    height: 121px;
+    width: 121px;
+} */
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    /* width: 120px; */
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    height: 25%;
+    width: 45%;
+
+}
+
+.foot {
+    color: #4f9aa7;
+    margin: 0 182px 6px 0;
+}
+
+.cards2{
+    margin: 150px auto;
+}
+
+.landescape1 {
+    /* height: 240px; */
+    width: min(96vw,1384px);
+    background-color: white;
+    border: 2px solid white;
+    margin: -157px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imags  {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    height: min(19vw, 260px);
+}
+
+.landescape1 img {
+    margin: 0 18px 0 18px;
+}
+
+
+
+#imags img {
+    height:90%;
+    width: auto;
+}
+
+.scroll::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  .scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .scroll::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+
+  #LI2 {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+.landescape2{
+     /* height: 240px; */
+     width: min(96vw,1384px);
+     background-color: white;
+     border: 2px solid white;
+     margin: 173px auto;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+#LI2 {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    height: min(19vw, 260px);
+}
+.landescape2 img {
+    margin: 0 18px 0 18px;
+}
+
+.cards3 {
+    max-width: 1400px;
+    margin: -150px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.cut-efffect {
+    position: relative;
+
+}
+
+.cut-efffect::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1.8px;
+    background: black;
+    /* transform: translateY(-50%) rotate(-2deg); for giving the actual look of cut jase ke thoda sa thedha kaat diya ho */
+}
+
+.specialImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.specialImg img {
+    height:10%;
+    width: 21%;
+    margin: 5px;
+}
+
+.imgSpecial {
+    height:37%;
+
+    width: 40;
+}
+
+.landescape3 {
+    width: min(96vw,1384px);
+    background-color: white;
+    border: 2px solid white;
+    margin: 145px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#LI3 {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    height: min(19vw, 260px);
+}
+
+#LI4 {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    height: min(19vw, 260px);
+}
+
+.landescape4{
+    width: min(96vw,1384px);
+    background-color: white;
+    border: 2px solid white;
+    margin: -130px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.landescape4 img{
+    margin: 0 15px;
+}
+
+.cards4{
+    max-width: 1400px;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.imageC4{
+    height: 80%;
+    width: 90%;
+}
+.imagec4a{
+    height: 35%;
+    width: 44%;
+}
+.landescape5{
+    width: min(96vw,1384px);
+    background-color: white;
+    border: 2px solid white;
+    margin: -160px auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+
+}
+.imageC5{
+    height: 80%;
+    width: 40%;
+}
+.cards5{
+    max-width: 1400px;
+    margin: 180px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.landescape6{
+    width: min(96vw,1384px);
+    background-color: white;
+    border: 2px solid white;
+    margin: -180px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#LI6{
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    height: min(19vw, 260px);  
+}
+
+.landescape6 img{
+    margin: 0 15px;
+}
+
+
+.landescape7 {
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2px solid white;
+    margin: 191px auto;
+    height: max(100px,11vw);
+}
+
+.box {
+    height: max(80px,8vw);
+    width: 99%;
+    border-radius: 5px;
+    border: 1.5px solid rgba(73, 69, 69, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box button {
+    height: 28px;
+    width: 200px;
+    background-color: #ffc530;
+    border: 2px solid #e6a400;
+    border-radius: 2px;
+    text-shadow: 0 1px 0 #ffe093;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: -190px;
+}
+
+.first {
+    height: 4vw;
+    width: 98vw;
+    background-color: #37475a;
+    margin: -23px 0 0 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second {
+    background-color: #232f3e;
+    height: 33vw;
+    width: 98vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    justify-content: space-around;
+
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+
+
+
+}
+
+.s div {
+    font-size: 15px;
+    color: rgb(182, 179, 179);
+    margin: 5px 0 0 0;
+
+}
+
+.s {
+    margin: 70px 16px 0 116px;
+}
+
+.s1 {
+    margin: 70px 0px 0 193px;
+}
+
+.s3 {
+    margin: 67px 0 0 0;
+
+}
+
+.s4 {
+    margin: 67px 0 0 0;
+}
+
+.s :first-child {
+    margin: 10px 0 0 0;
+}
+
+.second::after {
+    content: "";
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    background: rgba(128, 128, 128, 0.521);
+    height: 1px;
+}
+
+.secLast {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: -82px 0 0 0px;
+    z-index: 5;
+    position: absolute;
+}
+
+.secLast button {
+    background-color: transparent;
+    height: 35px;
+    width: 110px;
+    border: 1px solid rgb(163, 162, 162);
+    border-radius: 3px;
+    color: rgb(190, 190, 190);
+    margin: 0 -8px 0 12px;
+
+}
+
+.secLast img {
+    margin: 6px 113px 0 0;
+}
+
+.end {
+    height: 15vw;
+    width: 98vw;
+    background-color: #131a22;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.b div {
+    color: gray;
+    font-size: 13px;
+}
+
+.b {
+    margin: 0 0 0px 150px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.b1 div {
+    color: gray;
+    font-size: 13px;
+}
+
+h4 {
+    color: rgb(190, 190, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    .s {
+        margin: 70px 16px 0 116px;
+    }
+    
+    .s1 {
+        margin: 25% 0px 0 193px;
+    }
+    
+    .s3 {
+        margin: 25%  0 0 0;
+    
+    }
+    
+    .s4 {
+        margin:  25% 0 0 0;
+    }
+    
+    .s div {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1080px) {
+    .nav1 {
+        height: 40px;
+    }
+
+    .amazone-sym {
+        height: 35px;
+        width: 80px;
+    }
+
+    .name :first-child {
+        margin: 0 0 -8px 14px;
+        font-size: 7px;
+    }
+
+    .name :nth-child(3) {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .loco {
+        height: 10px;
+    }
+
+    .searchBar {
+        height: 27px;
+        position: relative;
+        left: -6px;
+
+
+    }
+
+
+    .all {
+        height: 92%;
+        width: 12%;
+        font-size: 6px;
+        border-radius: 2px 0 0 2px;
+    }
+
+    .searchBar input {
+        height: 80%;
+        width: 70%;
+        font-size: 6px;
+        padding: 0;
+    }
+
+    .icon {
+
+        height: 92%;
+        width: 12%;
+        border-radius: 0 2px 2px 0;
+
+    }
+
+    .nav2 {
+
+        font-size: 12px;
+
+    }
+
+    .hambarger {
+        height: 12px;
+        width: 20px;
+        position: relative;
+        left: -3px;
+        /* top: -0px; */
+    }
+
+    .mx {
+        height: 20px;
+        width: 230px;
+    }
+    .image-slider{
+        height: 260px;
+    }
+    .card h2 {
+     
+        font-size: 15px;
+  
+    }
+    .cards {
+       
+     
+      
+        margin: -90px auto;
+        
+    }
+
+    .img1 {
+        
+        font-size: 10px;
+
+    }
+    
+    .foot {
+        font-size: 9px;
+    }
+    .cards2{
+        margin: 80px auto;
+    }
+    .LB1 {
+        height: 55px;
+        width: 58px;
+       
+    }
+    .landescape1 {
+     
+        margin: -87px auto;
+        
+    }
+    
+    .landescape2{
+        margin: 103px auto;
+      
+   }
+
+   .scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .cards3 {
+  
+    margin: -90px auto;
+   
+}
+
+.font
+{
+    font-size: 8px;
+}
+
+.landescape3 {
+    margin: 80px auto;
+
+
+}
+.landescape4 img{
+    margin: 0 10px;
+}
+
+.landescape4{
+    margin: -65px auto;
+  
+
+}
+
+.cards4{
+    
+    margin: 70px auto;
+   
+
+}
+.head h2{
+    font-size: 12px;
+}
+
+.landescape5{
+  
+    margin: -70px auto ;
+    
+
+}
+
+.cards5{
+    margin: 90px auto;
+   
+}
+
+.landescape6{
+   
+    margin: -90px auto;
+   
+}
+
+.box h2{
+    font-size: 16px;
+    
+}
+
+.box h5{
+    font-size: 11px;
+
+}
+.box button {
+    height: 50px;
+    width: 160px;
+
+    font-size: 12px;
+}
+
+.landescape7{
+    margin-top: 100px;
+}
+
+.s{
+    font-size: 12px;
+}
+
+.s div {
+    font-size: 10px;
+    color: rgb(182, 179, 179);
+    margin: 5px 0 0 0;
+
+}
+.s {
+    margin: 70px 16px 0 116px;
+}
+
+.s1 {
+    margin: 25% 0px 0 193px;
+}
+
+.s3 {
+    margin: 25%  0 0 0;
+
+}
+
+.s4 {
+    margin:  25% 0 0 0;
+}
+
+
+.secLast {
+   
+    width: 100vw;
+    margin: -9% 0 0 0px;
+    z-index: 5;
+
+}
+
+.secLast button {
+    height: 20px;
+    width: 80px;
+    font-size: 8px;
+    margin: 0 -8px 0 12px;
+
+}
+
+.secLast img {
+    margin: 6px 113px 0 0;
+}
+
+
+.b div {
+    color: gray;
+    font-size: 8px;
+}
+
+.b {
+    margin: 0 0 0px 150px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.b1 div {
+    color: gray;
+    font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:840px) {
+    .nav2 {
+        font-size: 7px;
+    }
+
+    .card h2 {
+     
+        font-size: 13px;
+  
+    }
+    .img1 {
+        
+        font-size: 8px;
+
+    }
+    
+    .foot {
+        font-size: 8px;
+    }
+
+    .LB1 {
+        height: 25px;
+        width: 36px;
+       
+    }
+
+.s div{
+    font-size: 8px;
+}
+.s {
+    font-size: 10px;
+}
+
+.s1 {
+    margin-left: 20%;
+}
+.s2 {
+    margin-left: 10%;
+    margin-top: 25%;
+}
+
+
+.s div {
+    margin: 2px;
+}
+
+.first{
+    font-size: 10px;
+}
+.second{
+    height: 37vw;
+}
+
+
+.b div {
+    color: gray;
+    font-size: 6px;
+}
+
+.b {
+    margin: 0 0 0px 90px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.b1 div {
+    color: gray;
+    font-size: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .nav1 {
+        height: 25px;
+    }
+
+    .nav2 {
+        height: 20px;
+        width: 100vw;
+    }
+
+    .name {
+        position: relative;
+        left: 5px;
+    }
+
+    .loco {
+        height: 6px;
+
+    }
+
+    .name :first-child {
+        margin: 0 0 -9px 10px;
+        font-size: 3px;
+    }
+
+    .name :nth-child(3) {
+        font-size: 4px;
+        font-weight: bold;
+
+
+    }
+
+    .amazone-sym {
+        height: 22px;
+        width: 50px;
+        position: relative;
+        left: 0px;
+    }
+
+    .searchBar {
+        height: 17px;
+        position: relative;
+        left: -6px;
+
+
+    }
+
+
+    .all {
+        height: 92%;
+        width: 12%;
+        font-size: 6px;
+        border-radius: 2px 0 0 2px;
+    }
+
+    .searchBar input {
+        height: 86%;
+        width: 70%;
+        font-size: 6px;
+        padding: 0;
+    }
+
+    .icon {
+
+        height: 92%;
+        width: 12%;
+        border-radius: 0 2px 2px 0;
+
+    }
+
+    #search {
+        height: 11px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .en {
+        color: white;
+        margin: 0 6px;
+        font-size: 6px;
+    }
+
+    .n4,
+    .n5 {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: 0 1px;
+        font-size: 6px;
+    }
+
+    .n4> :first-child {
+        font-size: 5px;
+        margin: 0 0 -14px 0;
+    }
+
+    .n5> :first-child {
+        font-size: 6px;
+        margin: 0 0 -14px 0;
+    }
+
+    .n6 {
+
+        height: 16px;
+    }
+
+    .return {
+
+        position: relative;
+        top: -8px;
+        left: 5px;
+
+    }
+
+    .hello {
+        position: relative;
+        top: -8px;
+        left: 5px;
+
+    }
+
+    .account {
+        position: relative;
+        top: 6px;
+        width: 60px;
+        left: 6px;
+    }
+
+    .nav2 {
+
+        font-size: 5px;
+
+    }
+
+    .hambarger {
+        height: 8px;
+        width: 10px;
+        position: relative;
+        left: -5px;
+        top: -1px;
+    }
+
+    .mx {
+        height: 10px;
+        width: 80px;
+    }
+
+    .image-slider {
+        
+        max-height: 150px;
+        
+    }
+
+    .card h2 {
+     
+        font-size: 7px;
+  
+    }
+
+    .cards {    
+        margin: -55px auto;
+        
+    }
+    .img1 {
+        
+        font-size: 4px;
+
+    }
+    
+    .foot {
+        font-size: 4px;
+    }
+
+
+    .cards2{
+        margin: 40px auto;
+    }
+    
+    .landescape1 {
+     
+        margin: -53px auto;
+        
+    }
+    
+    .landescape2{
+        margin: 63px auto;
+      
+   }
+
+   .scroll::-webkit-scrollbar {
+    height: 2px;
+  }
+
+  .cards3 {
+ 
+    margin: -55px auto;
+  
+
+}
+.font
+{
+    font-size: 4px;
+}
+
+.specialImg img {
+    
+    margin: 2.5px;
+}
+
+
+.landescape3 {
+    margin: 40px auto;
+
+
+}
+.landescape4 img{
+    margin: 0 5px;
+}
+
+.landescape4{
+    margin: -30px auto;
+  
+
+}
+
+.cards4{
+    
+    margin: 39px auto;
+   
+
+}
+.head h2{
+    font-size: 8px;
+}
+.landescape5{
+    margin: -55px auto;
+}
+
+.cards5{
+    margin: 65px auto;
+   
+}
+
+.landescape6{
+   
+    margin: -75px auto;
+   
+}
+
+.landescape7{
+    height: 60px;
+    margin-top: 80px;
+}
+.box{
+    height: 80%;
+    display: flex;
+    gap: 7px;
+}
+.box h2{
+    font-size: 8px;
+  
+    
+}
+
+.box h5{
+    font-size: 6px;
+   
+}
+.box button {
+    height: 10px;
+    width: 80px;
+  
+    font-size: 7px;
+}
+
+
+
+
+.s div{
+    font-size: 5px;
+}
+.s {
+    font-size: 7px;
+}
+
+.s1 {
+    margin-left: 20%;
+}
+.s2 {
+    margin-left: 10%;
+    margin-top: 25%;
+}
+
+
+.s div {
+    margin: 1px;
+}
+
+.first{
+    font-size: 10px;
+}
+.second{
+    height: 37vw;
+}
+
+
+.secLast button {
+    height: 10px;
+    width: 60px;
+    font-size: 8px;
+    margin: 0 -8px 0 12px;
+
+}
+
+.secLast img {
+    margin: 6px 43px 0 0;
+    height: 22px;
+
+}
+
+.b div {
+    color: gray;
+    font-size: 4px;
+}
+
+.b {
+    margin: 0 0 0px 50px;
+}
+
+
+.b1 div {
+    color: gray;
+    font-size: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
